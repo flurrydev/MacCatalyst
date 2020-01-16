@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA3C06C423D1193F009CC76C /* Flurry.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3C06C323D1193F009CC76C /* Flurry.xcframework */; };
 		CA7089C223A05F82004E9733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7089C123A05F82004E9733 /* AppDelegate.swift */; };
 		CA7089C423A05F82004E9733 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7089C323A05F82004E9733 /* SceneDelegate.swift */; };
 		CA7089C623A05F82004E9733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7089C523A05F82004E9733 /* ViewController.swift */; };
 		CA7089C923A05F82004E9733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7089C723A05F82004E9733 /* Main.storyboard */; };
 		CA7089CB23A05F84004E9733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7089CA23A05F84004E9733 /* Assets.xcassets */; };
 		CA7089CE23A05F84004E9733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7089CC23A05F84004E9733 /* LaunchScreen.storyboard */; };
-		CA7089DE23A06C96004E9733 /* Flurry.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7089D623A05FA4004E9733 /* Flurry.xcframework */; };
-		CA7089DF23A06C96004E9733 /* Flurry.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA7089D623A05FA4004E9733 /* Flurry.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		CA7089E923A17436004E9733 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7089E823A17436004E9733 /* Security.framework */; };
 		CA7089EB23A17448004E9733 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7089EA23A17448004E9733 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
@@ -26,7 +25,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 0;
 			files = (
-				CA7089DF23A06C96004E9733 /* Flurry.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CA3C06C323D1193F009CC76C /* Flurry.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flurry.xcframework; path = catalinaTestApp/Flurry.xcframework; sourceTree = "<group>"; };
 		CA7089BE23A05F82004E9733 /* catalinaTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catalinaTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA7089C123A05F82004E9733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA7089C323A05F82004E9733 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +41,6 @@
 		CA7089CA23A05F84004E9733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA7089CD23A05F84004E9733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA7089CF23A05F84004E9733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA7089D623A05FA4004E9733 /* Flurry.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flurry.xcframework; path = ../Downloads/Flurry.xcframework; sourceTree = "<group>"; };
 		CA7089DA23A05FB2004E9733 /* catalinaTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = catalinaTestApp.entitlements; sourceTree = "<group>"; };
 		CA7089E123A06E95004E9733 /* bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bridging-header.h"; sourceTree = "<group>"; };
 		CA7089E223A06FEE004E9733 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -57,9 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA3C06C423D1193F009CC76C /* Flurry.xcframework in Frameworks */,
 				CA7089EB23A17448004E9733 /* SystemConfiguration.framework in Frameworks */,
 				CA7089E923A17436004E9733 /* Security.framework in Frameworks */,
-				CA7089DE23A06C96004E9733 /* Flurry.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,12 +100,12 @@
 		CA7089D523A05FA4004E9733 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CA3C06C323D1193F009CC76C /* Flurry.xcframework */,
 				CA7089EA23A17448004E9733 /* SystemConfiguration.framework */,
 				CA7089E823A17436004E9733 /* Security.framework */,
 				CA7089E623A0700B004E9733 /* CoreLocation.framework */,
 				CA7089E423A06FFA004E9733 /* SystemConfiguration.framework */,
 				CA7089E223A06FEE004E9733 /* Security.framework */,
-				CA7089D623A05FA4004E9733 /* Flurry.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
