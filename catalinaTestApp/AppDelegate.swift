@@ -22,6 +22,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                                           .withLogLevel(FlurryLogLevelAll)
                                           .withCrashReporting(false)
                                           .withSessionContinueSeconds(10)
+                                          .withDataSaleOptOut(false)
+            
+    
 
         // Replace YOUR_API_KEY with the api key in the downloaded package
         Flurry.startSession("Z4B4DQNRQ34WZZKGMBMZ", with: builder)

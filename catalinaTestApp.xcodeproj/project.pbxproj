@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA3C06C423D1193F009CC76C /* Flurry.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3C06C323D1193F009CC76C /* Flurry.xcframework */; };
+		CA10AC5523D12652009B7EBE /* Flurry.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA10AC5423D12652009B7EBE /* Flurry.xcframework */; };
 		CA7089C223A05F82004E9733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7089C123A05F82004E9733 /* AppDelegate.swift */; };
 		CA7089C423A05F82004E9733 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7089C323A05F82004E9733 /* SceneDelegate.swift */; };
 		CA7089C623A05F82004E9733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7089C523A05F82004E9733 /* ViewController.swift */; };
@@ -32,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CA3C06C323D1193F009CC76C /* Flurry.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flurry.xcframework; path = catalinaTestApp/Flurry.xcframework; sourceTree = "<group>"; };
+		CA10AC5423D12652009B7EBE /* Flurry.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Flurry.xcframework; sourceTree = "<group>"; };
 		CA7089BE23A05F82004E9733 /* catalinaTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catalinaTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA7089C123A05F82004E9733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA7089C323A05F82004E9733 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA3C06C423D1193F009CC76C /* Flurry.xcframework in Frameworks */,
+				CA10AC5523D12652009B7EBE /* Flurry.xcframework in Frameworks */,
 				CA7089EB23A17448004E9733 /* SystemConfiguration.framework in Frameworks */,
 				CA7089E923A17436004E9733 /* Security.framework in Frameworks */,
 			);
@@ -100,7 +100,7 @@
 		CA7089D523A05FA4004E9733 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CA3C06C323D1193F009CC76C /* Flurry.xcframework */,
+				CA10AC5423D12652009B7EBE /* Flurry.xcframework */,
 				CA7089EA23A17448004E9733 /* SystemConfiguration.framework */,
 				CA7089E823A17436004E9733 /* Security.framework */,
 				CA7089E623A0700B004E9733 /* CoreLocation.framework */,
